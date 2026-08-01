@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="BLKkH-N64Sor5hLJRKQi">
+    <mxGraphModel dx="915" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yxt19-o21UlHy5lhtWa9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;meta charset=&quot;utf-8&quot;&gt;AdministrarLealtad" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="GestionarPedidos" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;meta charset=&quot;utf-8&quot;&gt;ProcesarPagos" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-13" edge="1" parent="1" source="yxt19-o21UlHy5lhtWa9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yxt19-o21UlHy5lhtWa9-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-17" connectable="0" parent="yxt19-o21UlHy5lhtWa9-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="pagarPedido()" vertex="1">
+          <mxGeometry relative="1" x="-0.3247" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente" vertex="1">
+          <mxGeometry height="40" width="20" x="570" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-10" edge="1" parent="1" source="yxt19-o21UlHy5lhtWa9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yxt19-o21UlHy5lhtWa9-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-15" connectable="0" parent="yxt19-o21UlHy5lhtWa9-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="crearPedido()" vertex="1">
+          <mxGeometry relative="1" x="-0.2333" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;direction=east;" value="Cliente" vertex="1">
+          <mxGeometry height="40" width="20" x="70" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-12" edge="1" parent="1" source="yxt19-o21UlHy5lhtWa9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yxt19-o21UlHy5lhtWa9-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-16" connectable="0" parent="yxt19-o21UlHy5lhtWa9-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="consultarPuntos()" vertex="1">
+          <mxGeometry relative="1" x="-0.2133" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxt19-o21UlHy5lhtWa9-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente" vertex="1">
+          <mxGeometry height="40" width="20" x="340" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
