@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="pedido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="idPedido" type="xs:string"/>
+        <xs:element name="idCliente" type="xs:string"/>
+
+        <xs:element name="items">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="producto" type="xs:string"/>
+                    <xs:element name="tamano" type="xs:string"/>
+                    <xs:element name="cantidad" type="xs:positiveInteger"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="metodoEntrega" type="xs:string"/>
+
+        <xs:element name="estado">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="recibido"/>
+              <xs:enumeration value="preparando"/>
+              <xs:enumeration value="listo"/>
+              <xs:enumeration value="entregado"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="notasEspeciales" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

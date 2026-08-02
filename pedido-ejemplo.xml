@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+  <idPedido>47</idPedido>
+  <idCliente>jorge92</idCliente>
+  <items>
+    <item>
+      <producto>Latte</producto>
+      <tamano>grande</tamano>
+      <cantidad>2</cantidad>
+    </item>
+  </items>
+  <metodoEntrega>recoger</metodoEntrega>
+  <estado>preparando</estado>
+  <notasEspeciales>extra shot de café</notasEspeciales>
+</pedido>
